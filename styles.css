@@ -38,7 +38,7 @@ a {
 .blog-container {
     background-color: var(--White);
     width: 384px;
-    
+    height: 522px;
     padding: 1.2rem;
     border-radius: 20px;
     box-shadow: 8px 8px 0px 0px black;
