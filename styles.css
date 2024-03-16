@@ -1,0 +1,138 @@
+/*  Global */
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Figtree, sans-serif;
+    
+
+}
+body {
+    background-color: var(--Yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* */
+
+.blog-container {
+    background-color: var(--White);
+    width: 384px;
+    
+    padding: 1.2rem;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px black;
+    border: 1px solid black;
+    
+    
+}
+
+.blog-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-image .blog-img {
+    border-radius: 10px;
+}
+
+
+.blog-text {
+    margin-top: 1.2rem;
+    margin-left: 5px;
+}
+
+.yellow-bg {
+    background-color: var(--Yellow);
+    padding: 4px 12px;
+    border-radius: 4px;
+    width: 90px;
+}
+
+.published-date {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: .7rem;
+    margin-bottom: 1rem;
+}
+
+.blog-post-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: .7rem;
+    margin-bottom: 1rem;
+}
+
+.blog-post-title:hover {
+    color: var(--Yellow);
+}
+
+.preview-text {
+    color: var(--Grey);
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    
+}
+
+.blog-post-avatar {
+    display: flex;
+    align-items: center;
+    margin-left: .3rem;
+
+
+    
+    
+}
+
+.blog-post-avatar h4 {
+    margin-left: .7rem;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+.blog-post-avatar img {
+    width: 30px;
+}
+
+/* 
+
+
+Media Query's
+
+*/
+
+
+@media screen and (max-width: 500px) {
+    .blog-container {
+        width: 90%;
+        
+    }
+    .blog-image .blog-img {
+        width: 100%;
+    }
+
+} 
